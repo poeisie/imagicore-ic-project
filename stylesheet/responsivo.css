@@ -1,0 +1,121 @@
+
+@media (max-width: 768px) {
+
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .logo {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  #text-logo {
+    font-size: 24px;
+  }
+
+  .logo p {
+    font-size: 12px;
+  }
+
+  .nav-wrapper {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+    font-size: 14px;
+    align-items: center;
+  }
+
+
+  .main-content {
+    padding: 20px;
+    align-items: stretch;
+  }
+
+  .main-content section {
+    padding: 0 10px;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    display: block;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  td {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    color: #3e4b66;
+  }
+
+  form {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 15px 10px;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #text-logo {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    font-size: 13px;
+  }
+
+  .logo p {
+    font-size: 11px;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
